@@ -1,0 +1,45 @@
+<body>
+
+<h2>The Kitty Den</h2>
+<main>
+  <p>Click here to view more</p>
+  <style>
+      .container {
+          background-color: gray;
+          max-width: 100%;
+          height: auto;
+
+      }
+      img {
+          width: 200px;
+      }
+
+    </style>
+        <a><img class="container" src="https://media2.giphy.com/media/9gISqB3tncMmY/giphy.gif?cid=790b76116d1183ec663d2b6443e8f2fe2cb7a0efff040094&rid=giphy.gif  " style="width: 200px; height: 200px; margin: 0px;"</a>
+        <img alt="Image result for cat gif" class="n3VNCb" src="https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy.gif" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 200px; height: 200px; margin: 0px;">
+        <img src="https://media2.giphy.com/media/dIVa0pwco4Mj5rQ7gy/giphy.gif?cid=790b76116d1183ec663d2b6443e8f2fe2cb7a0efff040094&rid=giphy.gif" style="width: 200px; height: 200px; margin: 0px;">
+
+
+  <p>Which one of the three do you think cats like the most?:</p>
+  <ul>
+    <li><input type="checkbox" value="indoor" name="indoor-outdoor">cat nip</li>
+    <li><input type="checkbox" value="indoor" name="indoor-outdoor">laser pointers</li>
+    <li><input type="checkbox" value="indoor" name="indoor-outdoor">lasagna</li>
+  </ul>
+  <p>Which of the 3 things do you think cats hate the most?:</p>
+  <ol>
+    <li><input type="checkbox" value="indoor" name="indoor-outdoor">flea treatment</li>
+    <li><input type="checkbox" value="indoor" name="indoor-outdoor">thunder</li>
+    <li><input type="checkbox" value="indoor" name="indoor-outdoor">other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <label><input type="radio" value="indoor" name="indoor-outdoor"> Indoor</label>
+    <label><input type="radio" value="outdoor" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" value="loving"name="personality"> Loving</label>
+    <label><input type="checkbox" value="lazy" name="personality"> Lazy</label>
+    <label><input type="checkbox" value="energetic" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+</body>
